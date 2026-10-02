@@ -1,7 +1,7 @@
 print("Aluguel de carros!")
-diasAlugados = int(input("Quantos dias alugado?: "))
-kmRodados = float(input("Quantos km rodados?: "))
-aluguelDia = 60
-precoKm = 0.15
-totalPagar = (diasAlugados * aluguelDia) + (kmRodados * precoKm)
-print(f"O total a pagar é de R${totalPagar:.2f}")
+dias_alugados = int(input("Quantos dias alugado?: "))
+km_rodados = float(input("Quantos km rodados?: "))
+aluguel_dia = 60
+preco_km = 0.15
+total_pagar = (dias_alugados * aluguel_dia) + (km_rodados * preco_km)
+print(f"O total a pagar é de R${total_pagar:.2f}")
